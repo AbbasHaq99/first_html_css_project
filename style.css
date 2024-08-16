@@ -1,0 +1,39 @@
+body {
+    background-image: url(muslim_ground.jpeg);
+    margin: 0; /* Remove default body margin */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox on body to center content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.menu {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    color: red;
+}
+
+.box {
+    background-color: #f0f0f0; /* Light grey background */
+    border: 1px solid #ccc; /* Light grey border */
+    padding: 15px;
+    margin: 10px;
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Optional: Set a max width */
+    text-align: center; /* Center text */
+    font-size: 18px;
+}
+
+.header {
+    width: 100%; /* Full width of the viewport */
+    text-align: center; /* Center the text inside the header */
+    padding: 20px; /* Add padding around the header */
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color */
+    font-size: 24px; /* Larger font size */
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Stick to the top */
+    left: 0; /* Stick to the left */
+    z-index: 1; /* Ensure it's above other content */
+}
